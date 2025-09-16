@@ -1,4 +1,4 @@
-# Patient Visit Analysis for Emergency Care
+# ER Patient Visit Analytics Project
 
 <img src= "Health Dashboard.png">
 

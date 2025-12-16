@@ -41,19 +41,19 @@ Wait time patterns and yearly demand growth
 
 # 📊 What the Data Revealed
 
-# Patient Flow & Visit Patterns
+## Patient Flow & Visit Patterns
 
 A total of 4,632 ER visits were analyzed, split almost evenly between administrative (49.35%) and non-administrative (50.65%) appointments
 
 ER usage was significantly higher on weekdays (3.3K visits) compared to weekends (1.3K visits)
 
-# Patient Experience & Satisfaction
+## Patient Experience & Satisfaction
 
 The average satisfaction rating was 5.45, indicating room for improvement
 
 75.71% of services were unrated, highlighting gaps in feedback collection and patient engagement
 
-# Demographic Insights
+## Demographic Insights
 
 Adults accounted for 78% of visits, suggesting demand is concentrated in adult care
 
@@ -61,19 +61,19 @@ Gender distribution was nearly even (51.5% male, 48.2% female)
 
 Wait time heatmaps revealed variation across age and race groups, pointing to potential equity and efficiency concerns
 
-# Departmental Utilization
+## Departmental Utilization
 
 No Department Referrals (2.7K visits) formed the largest category, suggesting many patients either sought general consultation or were not routed further
 
 Among referrals, General Practice (0.9K) and Orthopedics (0.5K) saw the highest demand
 
-# Wait Times & Operational Load
+## Wait Times & Operational Load
 
 The overall average wait time was 35.53 minutes
 
 Certain demographic groups experienced consistently longer waits, signaling opportunities for operational improvements
 
-# Demand Growth Over Time
+## Demand Growth Over Time
 
 ER visits increased from 2,177 in 2019 to 2,455 in 2020, a 12.8% year-over-year growth
 

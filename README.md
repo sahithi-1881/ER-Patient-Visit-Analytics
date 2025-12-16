@@ -1,43 +1,87 @@
-# ER Patient Visit Analytics Project
+# Emergency Room Patient Visit Analytics
 
 <img src= "Health Dashboard.png">
 
-## Description
-This Power BI dashboard provides an interactive visualization of patient visit trends in the Emergency Room. It enables healthcare providers to gain actionable insights into patient demographics, visit patterns, and service ratings.
+# 📍 The Context
 
-## Key Features
-**1. Patient Visit Overview**: Total patient visits categorized by administrative and non-administrative appointments.
+Emergency rooms are high-pressure environments where patient flow, wait times, and service experience directly impact care quality.
+As patient volumes grow, hospitals need clear, data-driven visibility into how their ER is functioning on a daily basis.
 
-**2. Satisfaction Analysis**: Average satisfaction ratings and percentage of unrated services.
+This project uses ER visit data to understand who is coming in, when demand peaks, how long patients wait, and where operational gaps exist.
 
-**3. Demographic Insights**: Patient visits broken down by age group, gender, and race.
+# ⚠️ The Problem
 
-**4. Trend Analysis**: Year-over-year patient visit trends and weekday vs. weekend visit patterns.
+Hospital administrators often struggle to answer key operational questions such as:
+Are patients waiting longer at certain times or demographics?
+Which services and departments see the highest demand?
+Is patient satisfaction being captured effectively?
+How is ER demand changing over time?
 
-**5. Departmental Breakdown**: Number of patients referred to specific medical departments.
+Without a consolidated view, identifying bottlenecks and planning resources becomes difficult.
 
-**6. Wait Time Visualization**: Heatmap analysis of average patient wait times by age and race.
+# 🔎 The Approach
 
-## Detailed Analysis
-#### 1. Patient Visits Overview
-The dashboard highlights a total of 4,632 patient visits, split almost evenly between Administrative Appointments (49.35%) and Non-Administrative Appointments (50.65%).
-The visit trends show a higher preference for services on weekdays (3.3K visits) compared to weekends (1.3K visits).
-#### 2. Satisfaction and Service Metrics
-The average satisfaction rating is 5.45, indicating a need to explore ways to improve the patient experience.
-A significant portion of services (75.71%) remains unrated, suggesting either insufficient feedback collection mechanisms or gaps in patient engagement during visits.
-#### 3. Demographic Insights
-- **Age Distribution**: The majority of visits are from adults (78%), followed by teenagers and middle childhood groups. This indicates the need for services tailored to adult health concerns.
-- **Gender Distribution**: Patient visits are split almost evenly by gender, with 51.5% male and 48.2% female patients.
-- **Race Distribution**: A heatmap reveals disparities in average wait times across races, which could indicate potential inequities in service delivery.
-#### 4. Departmental Referrals
-No Department Referrals account for 2.7K visits, which might represent patients seeking general consultations or those who left without being assigned to specific departments.
-Among referrals, General Practice (0.9K visits) and Orthopedics (0.5K visits) are the top departments, reflecting the primary needs of patients.
-#### 5. Wait Time Analysis
-The average wait time across all patients is 35.53 minutes, with some variability by demographic groups.
-The heatmap of wait times shows that certain groups (e.g., specific age or race categories) experience longer delays, which might signal areas for operational improvement.
-#### 6. Yearly Trends
-Patient visits have grown from 2,177 in 2019 to 2,455 in 2020, a 12.8% increase. This upward trend suggests increased demand for emergency services, potentially indicating population growth or a rising need for healthcare access.
-#### 7. Key Findings
-- **Operational Gaps**: High percentages of unrated services and long wait times for specific groups highlight opportunities for better service delivery.
-- **Growth Opportunities**: Analyzing growth in specific demographics or departments can guide resource allocation.
-- **Engagement Challenges**: The high number of "No Department Referrals" visits suggests opportunities to guide patients more effectively.
+I built an interactive Power BI dashboard that brings together patient visits, demographics, satisfaction, and wait times into a single, decision-ready view.
+
+The analysis focused on:
+
+Visit volume and appointment types
+Patient satisfaction and feedback coverage
+Demographic patterns across age, gender, and race
+Departmental referrals and service usage
+Wait time patterns and yearly demand growth
+
+# 📊 What the Data Revealed
+
+# Patient Flow & Visit Patterns
+
+A total of 4,632 ER visits were analyzed, split almost evenly between administrative (49.35%) and non-administrative (50.65%) appointments
+ER usage was significantly higher on weekdays (3.3K visits) compared to weekends (1.3K visits)
+
+# Patient Experience & Satisfaction
+
+The average satisfaction rating was 5.45, indicating room for improvement
+75.71% of services were unrated, highlighting gaps in feedback collection and patient engagement
+
+# Demographic Insights
+
+Adults accounted for 78% of visits, suggesting demand is concentrated in adult care
+Gender distribution was nearly even (51.5% male, 48.2% female)
+Wait time heatmaps revealed variation across age and race groups, pointing to potential equity and efficiency concerns
+
+# Departmental Utilization
+
+No Department Referrals (2.7K visits) formed the largest category, suggesting many patients either sought general consultation or were not routed further
+Among referrals, General Practice (0.9K) and Orthopedics (0.5K) saw the highest demand
+
+# Wait Times & Operational Load
+
+The overall average wait time was 35.53 minutes
+Certain demographic groups experienced consistently longer waits, signaling opportunities for operational improvements
+
+# Demand Growth Over Time
+
+ER visits increased from 2,177 in 2019 to 2,455 in 2020, a 12.8% year-over-year growth
+This upward trend indicates increasing pressure on ER resources
+
+# 💡 Key Takeaways
+
+Operational gaps exist in wait times and feedback collection
+Demand is growing, requiring proactive staffing and planning
+Patient routing and engagement can be improved, especially for non-referred visits
+Data visibility enables more equitable and efficient ER operations
+
+# ✅ Outcome
+
+This dashboard enables healthcare stakeholders to:
+
+Monitor ER congestion and wait times
+Identify demographic and service-level disparities
+Improve patient experience tracking
+Support data-driven staffing and operational decisions
+
+# 🛠 Tools Used
+
+Power BI
+SQL (data preparation)
+Healthcare operational metrics

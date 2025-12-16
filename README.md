@@ -13,8 +13,11 @@ This project uses ER visit data to understand who is coming in, when demand peak
 
 Hospital administrators often struggle to answer key operational questions such as:
 Are patients waiting longer at certain times or demographics?
+
 Which services and departments see the highest demand?
+
 Is patient satisfaction being captured effectively?
+
 How is ER demand changing over time?
 
 Without a consolidated view, identifying bottlenecks and planning resources becomes difficult.
